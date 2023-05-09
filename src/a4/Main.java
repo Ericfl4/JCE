@@ -1,5 +1,6 @@
+package a4;
+
 import javax.crypto.SecretKey;
-import javax.security.auth.DestroyFailedException;
 import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -12,7 +13,7 @@ public class Main {
 
         /*
         System.out.println("Ejercicio 1");
-        UtilitatsXifrar utilitatsXifrar = new UtilitatsXifrar();
+        a4.UtilitatsXifrar utilitatsXifrar = new a4.UtilitatsXifrar();
 
 
         System.out.println("Ej 1.5:");
